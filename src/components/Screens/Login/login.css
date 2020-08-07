@@ -1,0 +1,66 @@
+.LoginPage {
+    /* background-color: rgb(6, 18, 22); */
+    background-image: url('../../../assets/login_backImg.jpg');
+    min-height: 100%;
+    min-height: 100vh;
+    display: flex;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    /* Add the blur effect */
+  /* filter: blur(8px);
+  -webkit-filter: blur(8px); */
+  
+}
+
+.InputBoxLogin{
+    border:1px solid #0000;
+	border-radius:10px;
+	height: 50px;
+    width: 350px;
+    background-color: #ffffff;
+    color: #000;
+    padding: 0 10px 0 29px;
+    font-size: 12px;
+}
+
+.LoginButton {
+    border:1px solid #002147;
+	/* border-radius:10px; */
+	height: 50px;
+    width: 200px;
+    background-color: #002147;
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    margin: 0 auto;
+    display: flex;
+    padding:15px;
+    justify-content: center;
+}
+
+.LoginButton:hover {
+    color: #002147;
+    background-color: #fdc800;
+    border: 1px solid #fdc800;
+}
+
+.linkdesign {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    margin-top: 10px;
+   
+}
+
+
+ a{
+     color: #002147;
+     font: italic 15px/15px bold Georgia, serif;
+     /* font: bold 25px/0px arial, sans-serif; */
+ }
+
+ a:hover {
+    /* color: red; */
+    font: italic 18px/15px bold Georgia, serif;
+  }
